@@ -38,7 +38,7 @@ class SagaGis < Formula
 
   resource "projects" do
     url "http://trac.osgeo.org/proj/export/2409/branches/4.8/proj/src/projects.h"
-    sha1 "867367a8ef097d5ff772b7f50713830d2d4bc09c"
+    sha1 "867367a8ef097d5ff772b7f50713830d2d4bc09c" # The SHA1 for the project.h has changed, which makes the saga-gis cannot be installed anymore, would you pelease verify this and updata it. Thanks.
     version "4.8.0"
   end
 
